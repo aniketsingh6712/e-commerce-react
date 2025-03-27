@@ -1,0 +1,38 @@
+/* Default styles apply to larger screens */
+
+/* Mobile-friendly styles */
+@media (max-width: 780px) {
+    .filter{
+        font-size: 0.7rem;
+        padding-left: 0;
+        padding-right: 0;
+        min-width: 20vw;
+       
+    }
+    .filter h5{
+        font-size: 1rem;
+    }
+    .filter input[type='text']{
+        font-size: 0.7rem;
+    }
+
+  
+   .filter .btn{
+    font-size: 0.9em;
+   }
+
+   
+}
+
+
+
+@media (max-width: 350px) {
+    .filter{
+     font-size: 0.6rem;
+    }
+    .filter h5{
+        font-size: 0.7rem;
+    }
+ 
+ }
+ 

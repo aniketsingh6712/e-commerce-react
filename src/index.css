@@ -1,0 +1,23 @@
+/* Light Mode (Default) */
+:root {
+    --bg-color: white;
+   
+  }
+  
+  /* Dark Mode */
+  [data-theme="dark"] {
+    --bg-color: #121212;
+
+  }
+  
+  /* Apply theme variables */
+  body {
+    background-color: var(--bg-color);
+   
+    transition: all 0.3s ease-in-out;
+  }
+  *{
+    margin:0px;
+    padding: 0px;
+  }
+  

@@ -1,0 +1,20 @@
+.main_container{
+    flex-direction: row;
+    
+}
+.main_container .container{
+    border-radius: .3rem;
+}
+@media (max-width: 655px) {
+    .main_container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .main_container .gift_code input{
+        font-size: 0.8em;
+    }
+    .main_container .gift_code .btn{
+        font-size: 0.6em;
+    }
+    
+}

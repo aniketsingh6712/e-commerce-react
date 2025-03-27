@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+  text-align: center;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #0f1728;
+  color:white;
+  flex-direction: row;
+  
+  padding-right: 50px;
+  
+}
+.navbar .icon{
+  display: none;
+  cursor: none;
+  
+}
+.navbar .work .logo{
+  
+  margin:5px;
+  font-size:30px;
+  font-family:Baskerville Old Face;
+}
+.sub-navbar{
+	font-size:25px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+
+  padding: 8px 0px;
+  
+}
+.sub-navbar ul{
+  margin-right: 90px;
+}
+.sub-navbar ul li{
+  list-style: none;
+  display: inline-block;
+ 
+}
+.sub-navbar ul li a{
+  padding: 2vh 2vw;
+  text-decoration: none;
+  color:#ffffff;
+  font-size: 20px;
+  font-weight: 700;
+}
+.sub-navbar ul li a:hover{
+ 
+  border:0.1px solid white;
+  border-radius: 0.2em;
+  color:#fdc501;
+}
+.sub-navbar .btn .btn{
+  margin:5px;
+}
+
+/* ============================================drop button================================================ */
+@media screen and (max-width: 900px) {
+  .navbar .sub-navbar {
+    font-size: 20px;
+    display: none;
+  }
+  .navbar .icon {
+    margin-left:20px;
+    display: block;
+    font-size: 35px;
+  }
+  .work{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+
+  }
+  .navbar .work .icon :hover{
+    background-color: #dab942;
+    color:white;
+  }
+  .navbar .work .icon::after{
+    color:black
+  }
+ 
+  
+}
+
+@media screen and (max-width: 900px) {
+  .navbar.responsive {position: relative}
+  .navbar{
+    display: block;
+  }
+  .navbar.responsive .work {
+   
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+    
+  }
+  .sub-navbar ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .sub-navbar .btn{
+    display: flex;
+    flex-direction: column;
+    
+    
+
+  }
+  
+  .responsive .sub-navbar{
+    margin-top: 30px;
+    display: block;
+    margin-left:20px;
+    
+    
+    
+  }
+  .responsive .sub-navbar ul{
+    flex-direction: column;
+    align-items:flex-start;
+    border-top: 1px solid white;
+    
+    
+  }
+  .responsive .sub-navbar ul li{
+    margin-top: 20px;
+    font-size: 15px;
+  }
+ 
+}
+@media screen and (max-width: 400px){
+  .navbar .work .logo{
+    font-size: 1rem;
+  }
+}

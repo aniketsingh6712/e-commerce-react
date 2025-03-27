@@ -14,10 +14,10 @@
   ### Steps to Set Up Locally  
   ```sh
   # Clone the repository
-  git clone https://github.com/yourusername/e-commerce.git
+  git clone https://github.com/yourusername/e-commerce-react.git
 
   # Navigate to project folder
-  cd e-commerce
+  cd e-commerce-react
 
   # Install dependencies
   npm install  # or yarn install
@@ -221,16 +221,16 @@ this project primarily relies on **manual testing** through `console.log()`, her
   ## 🔄 10. Rollback Plan  
 
   - **Rollback Command on GitHub:**  
-    ```sh
-   git log --oneline #identify the last stable commit
-   git revert <commit-hash> #revert to the last stable commit
-   git push origin main #push the reverted commit to gitHub
-    ```
+  ```sh
+  git log --oneline #identify the last stable commit
+  git revert <commit-hash> #revert to the last stable commit
+  git push origin main #push the reverted commit to gitHub
+  ```
   - **Rollback on Netlify:**
-    1.Go to Netlify Dashboard->Your Site->Deploys.
+  1.Go to Netlify Dashboard->Your Site->Deploys.
 
-    2.Locate the previous successful deployment.
+  2.Locate the previous successful deployment.
 
-    3.Click "Publish Deploy" to make it live again.
+  3.Click "Publish Deploy" to make it live again.
   ---
 
