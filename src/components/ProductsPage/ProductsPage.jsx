@@ -87,7 +87,7 @@ export const ProductsPage = () => {
                         value={maxPrice} 
                         onChange={(e) => setMaxPrice(e.target.value)} 
                     />
-                    <p className="text-muted">Up to ${maxPrice}</p>
+                    <p className="text-muted">Up to ₹{maxPrice}</p>
                 </div>
                 <button className="btn btn-warning w-100" onClick={clearFilters}>Clear Filters</button>
             </div>

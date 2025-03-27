@@ -106,7 +106,7 @@ export default function Product() {
                     <h5 className={` text-uppercase ${theme === "dark" ? "text-white-50" : "text-muted"}`}>{product.category}</h5>
                     <h1 className={`display-6 fw-bold ${theme === "dark" ? "text-white-50" : ""}`}>{product.title}</h1>
                     <p className="text-warning fw-bold">Rating: {product.rating.rate} ★ ({product.rating.count} reviews)</p>
-                    <h3 className="text-danger fw-bold">${product.price}</h3>
+                    <h3 className="text-danger fw-bold">₹{product.price}</h3>
                     <p className={` ${theme === "dark" ? "text-secondary" : ""}`}>{product.description}</p>
                     <button className={`btn  px-4 py-2  ${theme === "dark" ? "btn-outline-warning" : "btn-outline-dark"}`} onClick={() => addItem(product)}>
                         Add to Cart

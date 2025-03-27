@@ -16,7 +16,7 @@ const ProductCard = ({ product }) => {
                 <Card.Title>{product.title}</Card.Title>
                 <Card.Text className="text-muted">Category: {product.category}</Card.Text>
                 
-                <Card.Text className="fw-bold">${product.price.toFixed(2)}</Card.Text>{/*keeping price to two decimal places*/}
+                <Card.Text className="fw-bold">₹{product.price.toFixed(2)}</Card.Text>{/*keeping price to two decimal places*/}
                 <div className="d-flex align-items-center mb-2">
                    <span>{product.rating.rate}</span>
                     {[...Array(5)].map((_, i) => (

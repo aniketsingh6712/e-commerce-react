@@ -138,9 +138,9 @@ function Checkout() {
                                 </div>
                                 <div className="col-md-8">
                                     <h5 className='fw-bold'>{product.title}</h5>
-                                    <h6>Price: ${product.price.toFixed(2)}</h6>
+                                    <h6>Price: ₹{product.price.toFixed(2)}</h6>
                                     <h6><b>Quantity:</b> {product.qty}</h6>
-                                    <h6><b>Total:</b> ${(product.qty * product.price).toFixed(2)}</h6>
+                                    <h6><b>Total:</b> ₹{(product.qty * product.price).toFixed(2)}</h6>
                                 </div>
                             </div>
                         </div>
@@ -154,11 +154,11 @@ function Checkout() {
                     <Button variant="warning" className="w-100 mb-3" onClick={handleCheckout}>Place Order</Button>
                     <div>
                         <h5 className='fw-semibold'>Order Summary</h5>
-                        <p>Items: ${totalPrice}</p>
-                        <p>Shipping and Handling: $10</p>
-                        <p>Free Shipping: -$6</p>
+                        <p>Items: ₹{totalPrice}</p>
+                        <p>Shipping and Handling: ₹10</p>
+                        <p>Free Shipping: - ₹6</p>
                         <hr/>
-                        <p style={{ color: "red", fontWeight: "bold" }}>Order Total: ${totalPrice+10-6}</p>
+                        <p style={{ color: "red", fontWeight: "bold" }}>Order Total: ₹{totalPrice+10-6}</p>
                     </div>
                 
                 </div>

@@ -79,7 +79,7 @@ export default function Cart() {
                             </div>
                             <p className="text-muted">Rating: {product.rating?.rate} ★ ({product.rating?.count} reviews)</p>
 
-                            <p className="fw-bold">Total: ${(product.qty * product.price).toFixed(2)}</p>
+                            <p className="fw-bold">Total: ₹{(product.qty * product.price).toFixed(2)}</p>
                             <div className="d-flex justify-content-center  mt-3 align-items-center px-4 mb-2" style={{ border: "3px solid #ffd814", borderRadius: "1.5em", width: "fit-content", height: "5vh", fontSize: "0.6em" }} >
                                 <button className="btn fw-semibold fs-4 " style={{ border: "none" }} onClick={() => addItem(product)}>+</button>
                                 <span className="mx-2 fw-bold fs-3">{product.qty}</span>

@@ -21,7 +21,7 @@ function OrderCard({ product }) {
           <span className="ms-2">({product.rating.count})</span>
         </div>
         <Card.Text className="text-muted">Category: {product.category}</Card.Text>
-        <Card.Text className="fw-bold">Price: ${product.price}</Card.Text>
+        <Card.Text className="fw-bold">Price: ₹{product.price}</Card.Text>
         <Card.Text>Quantity:{product.qty}</Card.Text>
         
         <Button variant="warning" style={{ width: "fit-content", fontSize: "0.8em" }} onClick={() => nav(`/product/${product.id}`)}>View your item</Button>

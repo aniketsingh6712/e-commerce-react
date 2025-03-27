@@ -82,7 +82,7 @@ export const NavBar = () => {
           
            {/* Theme changing buttton */}
           <button onClick={toggleTheme} className={`btn ms-2 ${theme === "light" ? "btn-dark" : "btn-light"}`}>
-            {theme === "light" ? "🌙 Dark Mode" : "☀️ Light Mode"}
+            {theme === "light" ? "Dark Mode" : "Light Mode"}
           </button>
         </div>
       </div>

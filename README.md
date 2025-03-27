@@ -227,10 +227,10 @@ this project primarily relies on **manual testing** through `console.log()`, her
   git push origin main #push the reverted commit to gitHub
   ```
   - **Rollback on Netlify:**
-  1.Go to Netlify Dashboard->Your Site->Deploys.
-
-  2.Locate the previous successful deployment.
-
-  3.Click "Publish Deploy" to make it live again.
+  
+   1.Go to Netlify Dashboard->Your Site->Deploys.
+   2.Locate the previous successful deployment.
+   3.Click "Publish Deploy" to make it live again.
+  
   ---
 
