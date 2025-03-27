@@ -133,8 +133,13 @@
   - Supports **Light/Dark mode** via React Context.  
 
   ### 🖼 Screenshots  
-  ![Home Page](./screenshots/home.png)  
-
+ 
+![Screenshot (109)](https://github.com/user-attachments/assets/084b6c51-2532-4411-892e-2c3ad8a3aa9d)
+![Screenshot (111)](https://github.com/user-attachments/assets/79526636-9df4-42e6-9a29-c8a78ce8669e)
+![Screenshot (1![Screenshot (112)](https://github.com/user-attachments/assets/86ede8ff-666e-48e4-b90a-982a029788de)
+![Screenshot (112)](https://github.com/user-attachments/assets/38f38c2f-8928-4c68-8362-c1252a6ceb86)
+![Screenshot (113)](https://github.com/user-attachments/assets/157f691c-6480-46a2-aec3-59980b259cd3)
+![Screenshot (114)](https://github.com/user-attachments/assets/83cdc681-4420-4abf-bf17-30bfb1ed4e12)
   ---
 
   ## 🔥 7. Error Handling & Debugging  
@@ -230,7 +235,7 @@ this project primarily relies on **manual testing** through `console.log()`, her
   
    1.Go to Netlify Dashboard->Your Site->Deploys.\
    2.Locate the previous successful deployment.\
-   3.Click "Publish Deploy" to make it live again.\
+   3.Click "Publish Deploy" to make it live again.
   
   ---
 
